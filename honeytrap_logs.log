@@ -1,0 +1,197 @@
+[36m05:57:08.447 honeytrap/server ▶ DEBU 002 Using datadir: /data[0m
+[33m05:57:08.447 honeytrap/server ▶ WARN 003 Channel console is unused. Did you forget to add a filter?[0m
+05:57:08.447 honeytrap/server ▶ INFO 004 Configured service telnet (telnet)[0m
+05:57:08.447 honeytrap/server ▶ INFO 005 Configured service ssh-simulator (ssh-simulator)[0m
+05:57:08.447 honeytrap/server ▶ INFO 006 Configured port tcp/:8022[0m
+05:57:08.447 honeytrap/server ▶ INFO 007 Configured port tcp/:8023[0m
+05:57:08.447 honeytrap/server ▶ INFO 008 Configured port tcp/:5900[0m
+[33m05:57:08.447 honeytrap/server ▶ WARN 009 Unrecognized keys in configuration: [service.telnet.image service.telnet.server-name][0m
+05:57:08.448 listeners/socket ▶ INFO 00a Listener started: tcp/:8022[0m
+05:57:08.448 listeners/socket ▶ INFO 00b Listener started: tcp/:8023[0m
+05:57:08.448 listeners/socket ▶ INFO 00c Listener started: tcp/:5900[0m
+{"category":"heartbeat","date":"2023-11-23T05:57:38.448350798Z","sensor":"honeytrap","sequence":0,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"heartbeat","date":"2023-11-23T05:58:08.448681004Z","sensor":"honeytrap","sequence":1,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T05:58:09.824600525Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":37124,"ssh.password":"123","ssh.sessionid":"clfejmlql0ug0089ab2g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:58:12.805105906Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":37124,"ssh.password":"234","ssh.sessionid":"clfejmlql0ug0089ab2g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:58:16.684505555Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":37124,"ssh.password":"45678","ssh.sessionid":"clfejmlql0ug0089ab2g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:58:24.493344074Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":34756,"ssh.password":"qwert","ssh.sessionid":"clfejutql0ug0089ab3g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"heartbeat","date":"2023-11-23T05:58:38.448216727Z","sensor":"honeytrap","sequence":2,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"heartbeat","date":"2023-11-23T05:59:08.449722443Z","sensor":"honeytrap","sequence":3,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T05:59:31.335471208Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40170,"ssh.password":"random","ssh.sessionid":"clfekdtql0ug0089ab40","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"heartbeat","date":"2023-11-23T05:59:38.446644885Z","sensor":"honeytrap","sequence":4,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T05:59:39.965871902Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40170,"ssh.password":"passwo234","ssh.sessionid":"clfekdtql0ug0089ab40","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:59:44.761702684Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":34010,"ssh.password":"rahul","ssh.sessionid":"clfekjdql0ug0089ab4g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:59:46.347359523Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40170,"ssh.password":"qwertyuiop","ssh.sessionid":"clfekdtql0ug0089ab40","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:59:47.822474475Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":34010,"ssh.password":"qwedd","ssh.sessionid":"clfekjdql0ug0089ab4g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:59:51.371991681Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":34010,"ssh.password":"5rfgtrf","ssh.sessionid":"clfekjdql0ug0089ab4g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:59:57.465931355Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.password":"password","ssh.sessionid":"clfekm5ql0ug0089ab50","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T05:59:57.517950374Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.payload":"AAAADnh0ZXJtLTI1NmNvbG9yAAAAhQAAACAAAAKAAAAB4AAAAAuBAAAlgIAAACWAAA==","ssh.request-type":"pty-req","ssh.sessionid":"clfekm5ql0ug0089ab50","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"ssh","date":"2023-11-23T05:59:57.518115795Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.payload":"","ssh.request-type":"shell","ssh.sessionid":"clfekm5ql0ug0089ab50","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"ssh","date":"2023-11-23T06:00:04.307277161Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.password":"123344","ssh.sessionid":"clfekmlql0ug0089ab5g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"heartbeat","date":"2023-11-23T06:00:08.446281516Z","sensor":"honeytrap","sequence":5,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T06:00:08.557528012Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.password":"7851236","ssh.sessionid":"clfekmlql0ug0089ab5g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T06:00:11.943105105Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.password":"password","ssh.sessionid":"clfekmlql0ug0089ab5g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T06:00:11.993845716Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.payload":"AAAADnh0ZXJtLTI1NmNvbG9yAAAAeAAAAB4AAAKAAAAB4AAAAAuBAAAlgIAAACWAAA==","ssh.request-type":"pty-req","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"ssh","date":"2023-11-23T06:00:11.994090326Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.payload":"","ssh.request-type":"shell","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"ssh","date":"2023-11-23T06:00:22.356475414Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.command":"ls","ssh.sessionid":"clfekm5ql0ug0089ab50","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:00:24.561671422Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.command":"cd","ssh.sessionid":"clfekm5ql0ug0089ab50","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:00:31.984737859Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.command":"mkdir as","ssh.sessionid":"clfekm5ql0ug0089ab50","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"heartbeat","date":"2023-11-23T06:00:38.444976272Z","sensor":"honeytrap","sequence":6,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T06:00:43.350188719Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"cat /etc/*-release","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:00:47.895767084Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"whoami","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:00:50.620512717Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.command":"gedit a.txt","ssh.sessionid":"clfekm5ql0ug0089ab50","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:00:58.76187682Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"cat /etc/passwd","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:01:03.694648534Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.command":"cat a.txt","ssh.sessionid":"clfekm5ql0ug0089ab50","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:01:04.447955636Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"Id","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"heartbeat","date":"2023-11-23T06:01:08.445871695Z","sensor":"honeytrap","sequence":7,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T06:01:09.562512004Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"groups","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:01:14.41512232Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"su-","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:01:19.077406932Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"sudo -i","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:01:37.10234235Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"sudo cat /etc/sudoers","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"heartbeat","date":"2023-11-23T06:01:38.44602718Z","sensor":"honeytrap","sequence":8,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T06:01:40.178925358Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":40988,"ssh.payload":"AAAAQAAAAB8AAAKAAAAB4A==","ssh.request-type":"window-change","ssh.sessionid":"clfekm5ql0ug0089ab50","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"ssh","date":"2023-11-23T06:01:43.056264318Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"sudo -V","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:01:49.39744726Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"sudo su","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:01:52.658191266Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":49858,"ssh.password":"poqwer","ssh.sessionid":"clfelj5ql0ug0089ab60","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T06:01:57.713561511Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":49858,"ssh.password":"pawserfvg","ssh.sessionid":"clfelj5ql0ug0089ab60","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T06:02:01.375584416Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":49858,"ssh.password":"password","ssh.sessionid":"clfelj5ql0ug0089ab60","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T06:02:01.396774745Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":49858,"ssh.payload":"AAAADnh0ZXJtLTI1NmNvbG9yAAAAQAAAAB8AAAKAAAAB4AAAAAuBAAAlgIAAACWAAA==","ssh.request-type":"pty-req","ssh.sessionid":"clfelj5ql0ug0089ab60","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"ssh","date":"2023-11-23T06:02:01.397036518Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":49858,"ssh.payload":"","ssh.request-type":"shell","ssh.sessionid":"clfelj5ql0ug0089ab60","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"heartbeat","date":"2023-11-23T06:02:08.446545696Z","sensor":"honeytrap","sequence":9,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T06:02:10.226703161Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"mysql -u root -p","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:02:16.428520778Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"USE data","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:02:28.819071491Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"SET USER = root","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"heartbeat","date":"2023-11-23T06:02:38.445389563Z","sensor":"honeytrap","sequence":10,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T06:02:49.711249586Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"SET global max_connections = 100","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"ssh","date":"2023-11-23T06:02:59.234081845Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"history -c","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+{"category":"heartbeat","date":"2023-11-23T06:03:08.445723242Z","sensor":"honeytrap","sequence":11,"token":"ckv860lql0ug008dgl9g","type":"info"}
+{"category":"ssh","date":"2023-11-23T06:03:13.364092294Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":48262,"ssh.password":"password","ssh.sessionid":"clfem7dql0ug0089ab6g","ssh.username":"root","token":"ckv860lql0ug008dgl9g","type":"password-authentication"}
+{"category":"ssh","date":"2023-11-23T06:03:13.390690419Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":48262,"ssh.payload":"AAAADnh0ZXJtLTI1NmNvbG9yAAAAQAAAAB8AAAKAAAAB4AAAAAuBAAAlgIAAACWAAA==","ssh.request-type":"pty-req","ssh.sessionid":"clfem7dql0ug0089ab6g","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"ssh","date":"2023-11-23T06:03:13.39088188Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":48262,"ssh.payload":"","ssh.request-type":"shell","ssh.sessionid":"clfem7dql0ug0089ab6g","token":"ckv860lql0ug008dgl9g","type":"ssh-request"}
+{"category":"ssh","date":"2023-11-23T06:03:16.152536237Z","destination-ip":"172.17.0.2","destination-port":8022,"sensor":"services","source-ip":"172.17.0.1","source-port":41004,"ssh.command":"rm ~/.bash_history","ssh.sessionid":"clfekmlql0ug0089ab5g","token":"ckv860lql0ug008dgl9g","type":"ssh-channel"}
+620 0xc000671680 0xc00010a7c0 <nil>}) %!s(bool=true) %!s(ssh.channelDirection=0) %!s(chan interface {}=0xc000e3ccc0) {%!s(int32=0) %!s(uint32=0)} %!s(chan *ssh.Request=0xc000e3cc60) %!s(bool=false) {%!s(*sync.Cond=&{{} 0xc000e5cc70 {0 0 0 <nil> <nil>} 824649670896}) %!s(uint32=1048576) %!s(int=0) %!s(bool=false)} %!s(*ssh.buffer=&{0xc000f36100 0xc000e4c4a0 0xc000e4c4a0 false}) %!s(*ssh.buffer=&{0xc000f36140 0xc000e4c4e0 0xc000e4c4e0 false}) {%!s(int32=0) %!s(uint32=0)} %!s(uint32=2097152) {%!s(int32=0) %!s(uint32=0)} %!s(bool=false) map[]} pty-req %!s(bool=true)    xterm-256color   @            
+   %    %  
+[0m
+[36m06:02:01.396 services ▶ DEBU 0d4 Request: &{session  %!s(uint32=0) %!s(uint32=0) %!s(uint32=32768) %!s(uint32=16384) %!s(*ssh.mux=&{0xc00103c160 {{0 0} [0xc000146180] 0} 0xc0006715c0 {0 0} 0xc000671620 0xc000671680 0xc00010a7c0 <nil>}) %!s(bool=true) %!s(ssh.channelDirection=0) %!s(chan interface {}=0xc000e3ccc0) {%!s(int32=0) %!s(uint32=0)} %!s(chan *ssh.Request=0xc000e3cc60) %!s(bool=false) {%!s(*sync.Cond=&{{} 0xc000e5cc70 {0 0 0 <nil> <nil>} 824649670896}) %!s(uint32=1048576) %!s(int=0) %!s(bool=false)} %!s(*ssh.buffer=&{0xc000f36100 0xc000e4c4a0 0xc000e4c4a0 false}) %!s(*ssh.buffer=&{0xc000f36140 0xc000e4c4e0 0xc000e4c4e0 false}) {%!s(int32=0) %!s(uint32=0)} %!s(uint32=2097152) {%!s(int32=0) %!s(uint32=0)} %!s(bool=false) map[]} shell %!s(bool=true) 
+[0m
+[36m06:02:01.550 services ▶ DEBU 0d5  [0m
+[36m06:02:02.304 services ▶ DEBU 0d6 -[0m
+[36m06:02:02.815 services ▶ DEBU 0d7 u[0m
+[36m06:02:04.557 services ▶ DEBU 0d8  [0m
+[36m06:02:07.315 services ▶ DEBU 0d9 r[0m
+[36m06:02:07.550 services ▶ DEBU 0da o[0m
+[36m06:02:07.671 services ▶ DEBU 0db o[0m
+[36m06:02:07.784 services ▶ DEBU 0dc t[0m
+[36m06:02:09.202 services ▶ DEBU 0dd  [0m
+[36m06:02:09.773 services ▶ DEBU 0de -[0m
+[36m06:02:09.976 services ▶ DEBU 0df p[0m
+[36m06:02:10.226 services ▶ DEBU 0e0 [0m
+[36m06:02:13.461 services ▶ DEBU 0e1 U[0m
+[36m06:02:13.570 services ▶ DEBU 0e2 S[0m
+[36m06:02:13.868 services ▶ DEBU 0e3 E[0m
+[36m06:02:13.985 services ▶ DEBU 0e4  [0m
+[36m06:02:15.535 services ▶ DEBU 0e5 d[0m
+[36m06:02:15.535 services ▶ DEBU 0e6 a[0m
+[36m06:02:15.635 services ▶ DEBU 0e7 t[0m
+[36m06:02:15.681 services ▶ DEBU 0e8 a[0m
+[36m06:02:16.428 services ▶ DEBU 0e9 [0m
+[36m06:02:18.580 services ▶ DEBU 0ea S[0m
+[36m06:02:18.786 services ▶ DEBU 0eb E[0m
+[36m06:02:18.987 services ▶ DEBU 0ec T[0m
+[36m06:02:19.295 services ▶ DEBU 0ed  [0m
+[36m06:02:23.385 services ▶ DEBU 0ee U[0m
+[36m06:02:23.660 services ▶ DEBU 0ef S[0m
+[36m06:02:23.663 services ▶ DEBU 0f0 E[0m
+[36m06:02:24.008 services ▶ DEBU 0f1 R[0m
+[36m06:02:25.851 services ▶ DEBU 0f2  =[0m
+[36m06:02:25.955 services ▶ DEBU 0f3  [0m
+[36m06:02:27.696 services ▶ DEBU 0f4 r[0m
+[36m06:02:27.816 services ▶ DEBU 0f5 o[0m
+[36m06:02:27.934 services ▶ DEBU 0f6 o[0m
+[36m06:02:28.039 services ▶ DEBU 0f7 t[0m
+[36m06:02:28.818 services ▶ DEBU 0f8 [0m
+[36m06:02:31.071 services ▶ DEBU 0f9 S[0m
+[36m06:02:31.287 services ▶ DEBU 0fa E[0m
+[36m06:02:31.396 services ▶ DEBU 0fb [0m
+[36m06:02:31.396 honeytrap/server ▶ DEBU 0fc Disconnected connection for 172.17.0.1:49858 => 172.17.0.2:8022[0m
+[36m06:02:31.425 services ▶ DEBU 0fd T[0m
+[36m06:02:31.696 services ▶ DEBU 0fe  [0m
+[36m06:02:34.556 services ▶ DEBU 0ff g[0m
+[36m06:02:34.792 services ▶ DEBU 100 o[0m
+[36m06:02:35.576 services ▶ DEBU 101 [0m
+[36m06:02:36.192 services ▶ DEBU 102 l[0m
+[36m06:02:36.306 services ▶ DEBU 103 o[0m
+[36m06:02:36.603 services ▶ DEBU 104 b[0m
+[36m06:02:36.669 services ▶ DEBU 105 a[0m
+[36m06:02:36.908 services ▶ DEBU 106 l[0m
+[36m06:02:37.750 services ▶ DEBU 107 _[0m
+[36m06:02:40.803 services ▶ DEBU 108 [0m
+[36m06:02:40.892 services ▶ DEBU 109  [0m
+[36m06:02:41.414 services ▶ DEBU 10a m[0m
+[36m06:02:41.511 services ▶ DEBU 10b a[0m
+[36m06:02:41.826 services ▶ DEBU 10c x[0m
+[36m06:02:42.235 services ▶ DEBU 10d _[0m
+[36m06:02:43.051 services ▶ DEBU 10e c[0m
+[36m06:02:43.134 services ▶ DEBU 10f o[0m
+[36m06:02:43.464 services ▶ DEBU 110 n[0m
+[36m06:02:43.524 services ▶ DEBU 111 n[0m
+[36m06:02:43.769 services ▶ DEBU 112 e[0m
+[36m06:02:43.981 services ▶ DEBU 113 c[0m
+[36m06:02:44.285 services ▶ DEBU 114 t[0m
+[36m06:02:44.337 services ▶ DEBU 115 i[0m
+[36m06:02:44.461 services ▶ DEBU 116 o[0m
+[36m06:02:44.573 services ▶ DEBU 117 n[0m
+[36m06:02:44.899 services ▶ DEBU 118 s[0m
+[36m06:02:46.841 services ▶ DEBU 119  [0m
+[36m06:02:46.870 services ▶ DEBU 11a =[0m
+[36m06:02:46.921 services ▶ DEBU 11b  [0m
+[36m06:02:47.660 services ▶ DEBU 11c 1[0m
+[36m06:02:47.831 services ▶ DEBU 11d 0[0m
+[36m06:02:47.932 services ▶ DEBU 11e 0[0m
+[36m06:02:49.711 services ▶ DEBU 11f [0m
+[36m06:02:53.499 services ▶ DEBU 120 h[0m
+[36m06:02:53.534 services ▶ DEBU 121 i[0m
+[36m06:02:53.909 services ▶ DEBU 122 s[0m
+[36m06:02:54.524 services ▶ DEBU 123 t[0m
+[36m06:02:54.630 services ▶ DEBU 124 o[0m
+[36m06:02:54.936 services ▶ DEBU 125 r[0m
+[36m06:02:55.066 services ▶ DEBU 126 y[0m
+[36m06:02:56.981 services ▶ DEBU 127  [0m
+[36m06:02:57.054 services ▶ DEBU 128 -[0m
+[36m06:02:57.496 services ▶ DEBU 129 c[0m
+[36m06:02:58.105 services ▶ DEBU 12a  [0m
+[36m06:02:59.027 services ▶ DEBU 12b [0m
+[36m06:02:59.233 services ▶ DEBU 12c [0m
+[36m06:03:01.690 services ▶ DEBU 12d r[0m
+[36m06:03:01.771 services ▶ DEBU 12e m[0m
+[36m06:03:01.862 services ▶ DEBU 12f  [0m
+[36m06:03:04.047 services ▶ DEBU 130 ~[0m
+[36m06:03:05.265 services ▶ DEBU 131 /[0m
+[36m06:03:08.141 services ▶ DEBU 132 .[0m
+[36m06:03:08.613 services ▶ DEBU 133 b[0m
+[36m06:03:08.694 services ▶ DEBU 134 a[0m
+[36m06:03:08.871 services ▶ DEBU 135 s[0m
+[36m06:03:08.993 services ▶ DEBU 136 h[0m
+[36m06:03:09.093 honeytrap/server ▶ DEBU 137 Accepted connection for 172.17.0.1:48262 => 172.17.0.2:8022[0m
+[36m06:03:09.093 honeytrap/server ▶ DEBU 138 Handling connection for 172.17.0.1:48262 => 172.17.0.2:8022 ssh-simulator(ssh-simulator)[0m
+[36m06:03:09.881 services ▶ DEBU 139  [0m
+[36m06:03:11.731 services ▶ DEBU 13a [0m
+[36m06:03:12.593 services ▶ DEBU 13b _[0m
+[36m06:03:13.364 services ▶ DEBU 13c User authenticated successfully. user=root password=password[0m
+[36m06:03:13.390 services ▶ DEBU 13d Request: &{session  %!s(uint32=0) %!s(uint32=0) %!s(uint32=32768) %!s(uint32=16384) %!s(*ssh.mux=&{0xc00103c160 {{0 0} [0xc0063c40c0] 0} 0xc0064d0300 {0 0} 0xc0064d0360 0xc0064d03c0 0xc00010a440 <nil>}) %!s(bool=true) %!s(ssh.channelDirection=0) %!s(chan interface {}=0xc000e3c3c0) {%!s(int32=0) %!s(uint32=0)} %!s(chan *ssh.Request=0xc000e3c360) %!s(bool=false) {%!s(*sync.Cond=&{{} 0xc0064420c8 {0 0 0 <nil> <nil>} 824648835312}) %!s(uint32=1048576) %!s(int=0) %!s(bool=false)} %!s(*ssh.buffer=&{0xc000e6a100 0xc0063fa020 0xc0063fa020 false}) %!s(*ssh.buffer=&{0xc000e6a140 0xc0063fa060 0xc0063fa060 false}) {%!s(int32=0) %!s(uint32=0)} %!s(uint32=2097152) {%!s(int32=0) %!s(uint32=0)} %!s(bool=false) map[]} pty-req %!s(bool=true)    xterm-256color   @            
+   %    %  
+[0m
+[36m06:03:13.390 services ▶ DEBU 13e Request: &{session  %!s(uint32=0) %!s(uint32=0) %!s(uint32=32768) %!s(uint32=16384) %!s(*ssh.mux=&{0xc00103c160 {{0 0} [0xc0063c40c0] 0} 0xc0064d0300 {0 0} 0xc0064d0360 0xc0064d03c0 0xc00010a440 <nil>}) %!s(bool=true) %!s(ssh.channelDirection=0) %!s(chan interface {}=0xc000e3c3c0) {%!s(int32=0) %!s(uint32=0)} %!s(chan *ssh.Request=0xc000e3c360) %!s(bool=false) {%!s(*sync.Cond=&{{} 0xc0064420c8 {0 0 0 <nil> <nil>} 824648835312}) %!s(uint32=1048576) %!s(int=0) %!s(bool=false)} %!s(*ssh.buffer=&{0xc000e6a100 0xc0063fa020 0xc0063fa020 false}) %!s(*ssh.buffer=&{0xc000e6a140 0xc0063fa060 0xc0063fa060 false}) {%!s(int32=0) %!s(uint32=0)} %!s(uint32=2097152) {%!s(int32=0) %!s(uint32=0)} %!s(bool=false) map[]} shell %!s(bool=true) 
+[0m
+[36m06:03:13.984 services ▶ DEBU 13f hi[0m
+[36m06:03:14.285 services ▶ DEBU 140 s[0m
+[36m06:03:14.552 services ▶ DEBU 141 t[0m
+[36m06:03:14.680 services ▶ DEBU 142 o[0m
+[36m06:03:15.106 services ▶ DEBU 143 r[0m
+[36m06:03:15.163 services ▶ DEBU 144 y[0m
+[36m06:03:16.152 services ▶ DEBU 145 [0m
+[36m06:03:18.077 services ▶ DEBU 146 exit[0m
+[36m06:03:18.706 services ▶ DEBU 147 [0m
+[36m06:03:18.706 honeytrap/server ▶ DEBU 148 Disconnected connection for 172.17.0.1:48262 => 172.17.0.2:8022[0m
+[36m06:03:19.212 services ▶ DEBU 149 [0m
+[36m06:03:19.260 honeytrap/server ▶ DEBU 14a Disconnected connection for 172.17.0.1:41004 => 172.17.0.2:8022[0m
